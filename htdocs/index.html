@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="javascripts/sample.js"></script>
+  </head>
+  <body>
+  <h1>診断</h1>
+  <div id="contents">
+  </div>
+  <script id="step1Template" type="text/x-jquery-tmpl">
+    <button class="start">start</button>
+  </script>
+  <script id="step2Template" type="text/x-jquery-tmpl">
+    <h2>あなたの性格は?</h2>
+    <select name='q1'>
+      <option value=''></option>
+      <option value='0'>優しい</option>
+      <option value='1'>意地悪</option>
+    </select>
+  </script>
+  <script id="step3Template" type="text/x-jquery-tmpl">
+    <h2>あなたの好きな色は?</h2>
+    <select name='q2'>
+      <option value=''></option>
+      <option value='0'>赤</option>
+      <option value='1'>青</option>
+    </select>
+  </script>
+  <script id="step4Template" type="text/x-jquery-tmpl">
+    <h2>答え</h2>
+    <div id="answer"></div>
+  </script>
+  </body>
+</html>
